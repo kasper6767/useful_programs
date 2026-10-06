@@ -13,7 +13,7 @@ podaj mi transkrypcje tekstu z zrzutu ekranu w Markdownie
 ## 11\. CO TO SĄ SĄ KROPKI KWANTOWE I JAKIE MAJĄ WŁASNOŚCI?
 
  - **OD struktura**
-- **mają elektrony ograniczony w trzech wymiarach**
+- **ruch elektronu ograniczony w trzech wymiarach**
 - **najprostszy model – quantum box – kropka kwantowa w kształcie sześcianu, na zewnątrz potencjał nieskończony**
 - **równanie Schrödingera:**
 
@@ -46,7 +46,8 @@ $$
 
  - **stany energetyczne są zdegenerowane**
 - **sferyczna kropka kwantowa → rozłożenie funkcji falowej $\Psi$ na część radialną i kątową (podobieństwo do zagadnienia atomu wodoru w mechanice kwantowej)**
-  - **rozwiązanie – funkcje Bessela typu $J_{l+1/2}$**
+
+  → **rozwiązanie – funkcje Bessela typu $J_{l+1/2}$**
 
 ---
 
