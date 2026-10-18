@@ -10,7 +10,7 @@ podaj mi transkrypcje tekstu z zrzutu ekranu w Markdownie
 
 ## Finalna wersja notatki
 
-## 11\. CO TO SĄ SĄ KROPKI KWANTOWE I JAKIE MAJĄ WŁASNOŚCI?
+## 11\. CO TO SĄ KROPKI KWANTOWE I JAKIE MAJĄ WŁASNOŚCI?
 
  - **OD struktura**
 - **ruch elektronu ograniczony w trzech wymiarach**
@@ -27,8 +27,7 @@ $$
 \frac{\partial^2}{\partial z^2}
 \right)
 \Psi(x,y,z)
-\=
-E\Psi(x,y,z)
+=E\Psi(x,y,z)
 $$
 
  - **energia:**
