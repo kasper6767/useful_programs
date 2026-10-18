@@ -1,6 +1,19 @@
 # Margaret Thatcher
-## To moja bohaterka
-### Żartowałem.
+
+## Życie przed polityką
+
+### Miejsce urodzenia
+Urodziła się w Grantham w hrabstwie Lincolnshire we wschodniej Anglii.
+### Alma Mater
+Margaret Thatcher studiowała na Somerville College w ramach Uniwersytetu Oksfordzkiego
+
+## Polityka
+
+### Reformy Gospodarcze
+Thatcher promowała wolny rynek, prywatyzację przedsiębiorstw państwowych i ograniczenie wpływu związków zawodowych. Jej reformy znacząco zmieniły brytyjską gospodarkę.
+### Znaczenie historyczne
+Ze względu na zdecydowany styl rządzenia Thatcher zyskała przydomek „Żelaznej Damy”. Do dziś pozostaje postacią budzącą kontrowersje, zarówno ze względu na swoje osiągnięcia, jak i społeczne konsekwencje jej polityki.
+
 ### **Tekst pogrubiony**, *tekst pochylony*, ~~tekst przekreślony~~.
 - Przedmioty
   - przedmiot 1
@@ -24,11 +37,8 @@
 
  [Colab](http://colab.research.google.com)
 
-```java
-public class Main {
-public static void main(String[] args) {
-System.out.print("Hello World! ");
-}
+```python
+print("Hello, World!")
 ```
 Trzy wzory: $F = ma,  U = IR,  s = vt$
 
