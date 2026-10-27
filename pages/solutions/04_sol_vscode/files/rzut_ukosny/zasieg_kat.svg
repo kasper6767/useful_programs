@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Podpisane przemieszczenie do lądowania względem kąta</title>
+  <desc id="desc">Krzywa sinusoidalna podpisanego przemieszczenia poziomego dla rzutu bez oporu. Wartość dla 97 stopni jest ujemna.</desc>
+  <rect width="900" height="480" fill="#fff"/><text x="52" y="42" fill="#233044" font-family="sans-serif" font-size="23" font-weight="700">Podpisane przemieszczenie a kąt wyrzutu</text>
+  <path d="M105 390H850M105 80V390" fill="none" stroke="#233044" stroke-width="1.5"/><path d="M105 235H850M291 80V390M478 80V390M664 80V390" stroke="#e0e5e9"/>
+  <text x="58" y="88" font-family="sans-serif" font-size="13" fill="#64748b">+70</text><text x="69" y="241" font-family="sans-serif" font-size="13" fill="#64748b">0</text><text x="58" y="392" font-family="sans-serif" font-size="13" fill="#64748b">−70</text>
+  <text x="100" y="418" font-family="sans-serif" font-size="13" fill="#64748b">0°</text><text x="278" y="418" font-family="sans-serif" font-size="13" fill="#64748b">45°</text><text x="462" y="418" font-family="sans-serif" font-size="13" fill="#64748b">90°</text><text x="644" y="418" font-family="sans-serif" font-size="13" fill="#64748b">135°</text><text x="822" y="418" font-family="sans-serif" font-size="13" fill="#64748b">180°</text>
+  <text x="380" y="455" font-family="sans-serif" font-size="16" fill="#233044">Kąt α [°]</text><text transform="translate(26 336) rotate(-90)" font-family="sans-serif" font-size="15" fill="#233044">Przemieszczenie R [m]</text>
+  <path d="M105 235C170 157 226 91 291 82S412 157 478 235S598 313 664 388S785 313 850 235" fill="none" stroke="#8455a4" stroke-width="4"/>
+  <path d="M506 80V390" stroke="#d47722" stroke-width="2.5" stroke-dasharray="7 5"/><circle cx="506" cy="260" r="7" fill="#d47722"/><text x="520" y="280" font-family="sans-serif" font-size="15" fill="#d47722" font-weight="700">97°: R ≈ −16,67 m</text>
+  <text x="105" y="476" font-family="sans-serif" font-size="13" fill="#64748b">Model bez oporu, v₀ = 26 m/s i g = 9,81 m/s². Znak ujemny wskazuje lądowanie po stronie x &lt; 0.</text>
+</svg>

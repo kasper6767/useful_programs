@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Szybkość i wartość przyspieszenia</title>
+  <desc id="desc">Dwa poglądowe wykresy porównujące szybkość oraz wartość przyspieszenia w czasie dla trzech modeli.</desc>
+  <rect width="900" height="480" fill="#fff"/><text x="52" y="42" fill="#233044" font-family="sans-serif" font-size="23" font-weight="700">Szybkość i wartość przyspieszenia</text>
+  <text x="220" y="82" font-family="sans-serif" font-size="17" fill="#233044">Szybkość |v| [m/s]</text><text x="590" y="82" font-family="sans-serif" font-size="17" fill="#233044">Wartość |a| [m/s²]</text>
+  <path d="M90 390H430M90 110V390M500 390H840M500 110V390" fill="none" stroke="#233044" stroke-width="1.5"/>
+  <path d="M90 170Q260 375 430 170" fill="none" stroke="#2463a6" stroke-width="3.5"/><path d="M90 170Q275 330 430 360" fill="none" stroke="#d47722" stroke-width="3.5"/><path d="M90 170Q275 335 430 355" fill="none" stroke="#168578" stroke-width="3.5"/>
+  <path d="M500 300H840" fill="none" stroke="#2463a6" stroke-width="3.5"/><path d="M500 150Q600 210 670 285T840 335" fill="none" stroke="#d47722" stroke-width="3.5"/><path d="M500 185Q610 235 690 292T840 326" fill="none" stroke="#168578" stroke-width="3.5"/>
+  <path d="M90 390H840" stroke="#e0e5e9"/><text x="90" y="414" font-family="sans-serif" font-size="13" fill="#64748b">0</text><text x="800" y="414" font-family="sans-serif" font-size="13" fill="#64748b">czas [s]</text>
+  <path d="M90 440h24" stroke="#2463a6" stroke-width="3.5"/><text x="120" y="445" font-family="sans-serif" font-size="13" fill="#233044">Bez oporu</text><path d="M260 440h24" stroke="#d47722" stroke-width="3.5"/><text x="290" y="445" font-family="sans-serif" font-size="13" fill="#233044">Liniowy</text><path d="M410 440h24" stroke="#168578" stroke-width="3.5"/><text x="440" y="445" font-family="sans-serif" font-size="13" fill="#233044">Kwadratowy</text>
+  <text x="565" y="445" font-family="sans-serif" font-size="12" fill="#64748b">Schemat poglądowy; jednostki SI.</text>
+</svg>

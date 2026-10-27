@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Bilans energii z oporem</title>
+  <desc id="desc">Wykres poglądowy pokazujący spadek energii mechanicznej i wzrost rozproszonej energii dla oporu liniowego i kwadratowego.</desc>
+  <rect width="900" height="480" fill="#fff"/><text x="52" y="42" fill="#233044" font-family="sans-serif" font-size="23" font-weight="700">Bilans energii mechanicznej</text>
+  <path d="M110 405H850M110 85V405" fill="none" stroke="#233044" stroke-width="1.5"/>
+  <path d="M110 325H850M110 245H850M110 165H850" stroke="#e0e5e9"/>
+  <text x="60" y="90" font-family="sans-serif" font-size="14" fill="#64748b">70</text><text x="60" y="409" font-family="sans-serif" font-size="14" fill="#64748b">0</text><text x="397" y="450" font-family="sans-serif" font-size="16" fill="#233044">Czas t [s]</text><text transform="translate(28 300) rotate(-90)" font-family="sans-serif" font-size="16" fill="#233044">Energia [J]</text>
+  <path d="M110 95H850" fill="none" stroke="#233044" stroke-width="2" stroke-dasharray="3 6"/><text x="760" y="85" font-family="sans-serif" font-size="13" fill="#233044">E₀ = 67,6 J</text>
+  <path d="M110 95Q220 132 320 178T520 253T700 300T850 320" fill="none" stroke="#d47722" stroke-width="3.5"/><path d="M110 405Q230 365 330 318T530 240T700 192T850 170" fill="none" stroke="#d47722" stroke-width="3.5" stroke-dasharray="8 5"/>
+  <path d="M110 95Q220 155 330 212T540 289T710 333T850 350" fill="none" stroke="#168578" stroke-width="3.5"/><path d="M110 405Q225 340 335 280T540 205T710 162T850 145" fill="none" stroke="#168578" stroke-width="3.5" stroke-dasharray="8 5"/>
+  <path d="M570 120h28" stroke="#d47722" stroke-width="3.5"/><text x="605" y="125" font-family="sans-serif" font-size="13" fill="#233044">Mechaniczna: liniowy</text><path d="M570 145h28" stroke="#d47722" stroke-width="3.5" stroke-dasharray="6 4"/><text x="605" y="150" font-family="sans-serif" font-size="13" fill="#233044">Rozproszona: liniowy</text>
+  <path d="M570 170h28" stroke="#168578" stroke-width="3.5"/><text x="605" y="175" font-family="sans-serif" font-size="13" fill="#233044">Mechaniczna: kwadratowy</text><path d="M570 195h28" stroke="#168578" stroke-width="3.5" stroke-dasharray="6 4"/><text x="605" y="200" font-family="sans-serif" font-size="13" fill="#233044">Rozproszona: kwadratowy</text>
+  <text x="110" y="473" font-family="sans-serif" font-size="13" fill="#64748b">Uproszczona wizualizacja. Dokładne wartości liczy skrypt; suma energii mechanicznej i rozproszonej wynosi E₀.</text>
+</svg>

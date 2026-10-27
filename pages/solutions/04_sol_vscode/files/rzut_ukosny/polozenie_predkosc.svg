@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Położenie i prędkość w czasie</title>
+  <desc id="desc">Poglądowe wykresy składowych położenia oraz prędkości dla ruchu bez oporu, z oporem liniowym i kwadratowym.</desc>
+  <rect width="900" height="700" fill="#fff"/><text x="52" y="40" fill="#233044" font-family="sans-serif" font-size="23" font-weight="700">Położenie i składowe prędkości w czasie</text>
+  <text x="90" y="75" font-family="sans-serif" font-size="16" fill="#233044">Położenie [m]</text><path d="M110 330H850M110 95V330" stroke="#233044" stroke-width="1.5" fill="none"/>
+  <path d="M110 250H850M110 170H850" stroke="#e1e5e9"/><text x="65" y="254" fill="#64748b" font-family="sans-serif" font-size="13">0</text>
+  <path d="M110 250L820 308" fill="none" stroke="#2463a6" stroke-width="3"/><path d="M110 250Q480 42 820 250" fill="none" stroke="#2463a6" stroke-width="3" stroke-dasharray="8 5"/>
+  <path d="M110 250Q480 202 820 298" fill="none" stroke="#d47722" stroke-width="3"/><path d="M110 250Q480 75 820 250" fill="none" stroke="#d47722" stroke-width="3" stroke-dasharray="8 5"/>
+  <path d="M110 250Q490 202 820 286" fill="none" stroke="#168578" stroke-width="3"/><path d="M110 250Q480 100 820 250" fill="none" stroke="#168578" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="90" y="385" font-family="sans-serif" font-size="16" fill="#233044">Prędkość [m/s]</text><path d="M110 625H850M110 405V625" stroke="#233044" stroke-width="1.5" fill="none"/>
+  <path d="M110 515H850" stroke="#d5dbe1"/><path d="M110 438L820 592" fill="none" stroke="#2463a6" stroke-width="3"/><path d="M110 430L820 602" fill="none" stroke="#2463a6" stroke-width="3" stroke-dasharray="8 5"/>
+  <path d="M110 515Q460 505 820 530" fill="none" stroke="#d47722" stroke-width="3"/><path d="M110 430Q450 485 820 585" fill="none" stroke="#d47722" stroke-width="3" stroke-dasharray="8 5"/>
+  <path d="M110 515Q460 506 820 526" fill="none" stroke="#168578" stroke-width="3"/><path d="M110 430Q450 477 820 579" fill="none" stroke="#168578" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="448" y="660" font-family="sans-serif" font-size="16" fill="#233044">Czas t [s]</text><text x="112" y="644" font-family="sans-serif" font-size="13" fill="#64748b">0</text><text x="800" y="644" font-family="sans-serif" font-size="13" fill="#64748b">czas lądowania</text>
+  <path d="M520 75h25" stroke="#233044" stroke-width="3"/><text x="551" y="81" font-family="sans-serif" font-size="13" fill="#233044">x (linia ciągła)</text><path d="M690 75h25" stroke="#233044" stroke-width="3" stroke-dasharray="6 4"/><text x="721" y="81" font-family="sans-serif" font-size="13" fill="#233044">y (przerywana)</text>
+  <text x="520" y="400" font-family="sans-serif" font-size="12" fill="#2463a6">Bez oporu</text><text x="630" y="400" font-family="sans-serif" font-size="12" fill="#d47722">Liniowy</text><text x="718" y="400" font-family="sans-serif" font-size="12" fill="#168578">Kwadratowy</text>
+  <text x="50" y="686" font-family="sans-serif" font-size="12" fill="#64748b">Schemat poglądowy. Pełne wykresy numeryczne zapisuje skrypt generuj_rzut.py.</text>
+</svg>

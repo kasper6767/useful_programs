@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title desc">
+  <title id="title">Schemat rzutu ukośnego przy kącie 97 stopni</title>
+  <desc id="desc">Oś pozioma x i pionowa y, wektor prędkości skierowany w lewo i w górę pod kątem 97 stopni od dodatniej osi x oraz schematyczny tor paraboliczny.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#d47722"/></marker>
+    <marker id="axisArrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#233044"/></marker>
+  </defs>
+  <rect width="900" height="470" fill="#fff"/>
+  <text x="52" y="42" fill="#233044" font-family="sans-serif" font-size="23" font-weight="700">Rzut ukośny: kierunek i konwencja kąta</text>
+  <path d="M130 380H830" stroke="#233044" stroke-width="2" marker-end="url(#axisArrow)"/>
+  <path d="M480 414V80" stroke="#233044" stroke-width="2" marker-end="url(#axisArrow)"/>
+  <path d="M480 380Q450 -286 420 380" fill="none" stroke="#2463a6" stroke-width="4"/>
+  <circle cx="480" cy="380" r="6" fill="#233044"/>
+  <path d="M480 380L466 247" stroke="#d47722" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M540 380A60 60 0 0 0 473 321" fill="none" stroke="#d47722" stroke-width="2"/>
+  <text x="503" y="348" fill="#233044" font-family="sans-serif" font-size="20">97°</text>
+  <text x="373" y="239" fill="#d47722" font-family="sans-serif" font-size="19" font-weight="700">v₀ = 26 m/s</text>
+  <text x="811" y="410" fill="#233044" font-family="sans-serif" font-size="19">x</text>
+  <text x="495" y="92" fill="#233044" font-family="sans-serif" font-size="19">y</text>
+  <text x="500" y="408" fill="#64748b" font-family="sans-serif" font-size="15">0</text>
+  <text x="55" y="449" fill="#64748b" font-family="sans-serif" font-size="14">Tor i wektor są poglądowe; kąt liczony przeciwnie do ruchu wskazówek zegara od +x.</text>
+</svg>
