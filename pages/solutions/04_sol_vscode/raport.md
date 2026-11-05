@@ -136,7 +136,7 @@ Podstawiając ten czas do $y(t)$:
 $$
 h_{\max}=y(t_h)
 =\frac{v_0^2\sin^2\alpha}{2g}
-\approx33{,}95\,\mathrm{m}.
+\approx33{,}94\,\mathrm{m}.
 $$
 
 Czas wznoszenia wynosi około $2{,}630\,\mathrm{s}$. Przy braku oporu czas opadania z tej samej wysokości jest taki sam.
@@ -304,7 +304,7 @@ $$
 W każdym modelu przy tym samym $v_0$ i $\alpha$ ciało rozpoczyna ruch z tą samą prędkością. Różnice narastają później:
 
 - Bez oporu $v_x$ jest stałe, tor jest parabolą, a szybkość przy powrocie na poziom startu równa jest szybkości początkowej.
-- Opór liniowy zmniejsza wartość każdej składowej prędkości i prowadzi do wykładniczej zależności składowej poziomej od czasu.
+- W modelu liniowym składowa pozioma zanika wykładniczo, a składowa pionowa maleje, przechodzi przez zero i dąży do prędkości granicznej skierowanej w dół.
 - Opór kwadratowy zależy od aktualnej szybkości i sprzęga osie; tor i czas lądowania otrzymujemy z całkowania układu.
 - Dla kąta $97^\circ$ ruch poziomy odbywa się w lewo. Opór zmniejsza poziomą wartość prędkości, a więc zwykle zmniejsza bezwzględną odległość lądowania od początku układu.
 
@@ -571,7 +571,8 @@ for name in ("Opór liniowy", "Opór kwadratowy"):
 	ax.plot(t, energy0 - kinetic - potential, color=COLORS[name], ls="--",
 			label=f"Energia rozproszona: {name}")
 ax.axhline(energy0, color=INK, ls=":", label="E₀")
-ax.set(xlabel="Czas t [s]", ylabel="Energia [J]", ylim(bottom=0))
+ax.set(xlabel="Czas t [s]", ylabel="Energia [J]")
+ax.set_ylim(bottom=0)
 ax.set_title("Energia mechaniczna maleje wskutek oporu", loc="left")
 ax.legend(ncol=2, fontsize=8)
 save(fig, "energia")
@@ -630,9 +631,9 @@ Wartość kąta z pomiaru nie powinna być zaokrąglana przed obliczeniami. Niep
 
 ## 9. Wnioski
 
-Dla zadanych $v_0=26\,\mathrm{m/s}$ i $\alpha=97^\circ$ składowa pozioma prędkości wynosi około $-3{,}169\,\mathrm{m/s}$, a pionowa około $25{,}806\,\mathrm{m/s}$. W modelu bez oporu tor jest parabolą, wysokość maksymalna wynosi około $33{,}95\,\mathrm{m}$, czas lotu około $5{,}261\,\mathrm{s}$, a podpisane przemieszczenie poziome przy lądowaniu około $-16{,}67\,\mathrm{m}$.
+Dla zadanych $v_0=26\,\mathrm{m/s}$ i $\alpha=97^\circ$ składowa pozioma prędkości wynosi około $-3{,}169\,\mathrm{m/s}$, a pionowa około $25{,}806\,\mathrm{m/s}$. W modelu bez oporu tor jest parabolą, wysokość maksymalna wynosi około $33{,}94\,\mathrm{m}$, czas lotu około $5{,}261\,\mathrm{s}$, a podpisane przemieszczenie poziome przy lądowaniu około $-16{,}67\,\mathrm{m}$.
 
-Opór zmienia oba składniki prędkości, skraca lub wydłuża czas powrotu zależnie od parametrów i zmniejsza energię mechaniczną. Opór liniowy prowadzi do jawnych wzorów wykładniczych; opór kwadratowy sprzęga składowe prędkości i wymaga numerycznego całkowania. Wynik symulacji należy interpretować wraz z przyjętymi parametrami, a nie jako jedną uniwersalną trajektorię.
+Opór zmienia przebieg obu składowych prędkości, czas lotu i położenie lądowania, a także zmniejsza energię mechaniczną. Opór liniowy prowadzi do jawnych wzorów wykładniczych; opór kwadratowy sprzęga składowe prędkości i wymaga numerycznego całkowania. Wynik symulacji należy interpretować wraz z przyjętymi parametrami, a nie jako jedną uniwersalną trajektorię.
 
 ### Lista kontrolna
 

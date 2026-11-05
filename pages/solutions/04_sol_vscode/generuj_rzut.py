@@ -205,7 +205,8 @@ for name in ("Opór liniowy", "Opór kwadratowy"):
     ax.plot(t, energy0 - kinetic - potential, color=COLORS[name], ls="--",
             label=f"Energia rozproszona: {name}")
 ax.axhline(energy0, color=INK, ls=":", label="E₀")
-ax.set(xlabel="Czas t [s]", ylabel="Energia [J]", ylim(bottom=0))
+ax.set(xlabel="Czas t [s]", ylabel="Energia [J]")
+ax.set_ylim(bottom=0)
 ax.set_title("Energia mechaniczna maleje wskutek oporu", loc="left")
 ax.legend(ncol=2, fontsize=8)
 save(fig, "energia")
